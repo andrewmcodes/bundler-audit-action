@@ -1,0 +1,11 @@
+name: 'Bundler Audit Action'
+description: 'GitHub Action for running bundler-audit'
+author: 'Andrew Mason <andrewmcodes@protonmail.com>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+env:
+  GITHUB_TOKEN: secrets.GITHUB_TOKEN
+branding:
+  icon: 'shield'
+  color: 'gray-dark'
