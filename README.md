@@ -6,6 +6,10 @@
 
 # Bundler Audit Action
 
+![Version Number](https://img.shields.io/static/v1?label=Version&message=v0.0.1&color=blue)
+![Linters](https://github.com/andrewmcodes/bundler-audit-action/workflows/Linters/badge.svg)
+[![Changelog](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Changelog/badge.svg)][changelog]
+
 This GitHub Action runs [bundler-audit](https://github.com/rubysec/bundler-audit) on your project.
 
 ## Usage
