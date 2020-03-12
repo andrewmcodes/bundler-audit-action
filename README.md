@@ -1,3 +1,9 @@
+<!-- Variables -->
+[changelog]: /CHANGELOG.md
+[coc]: /CODE_OF_CONDUCT.md
+[contributing]: /CONTRIBUTING.md
+[license]: /LICENSE.md
+
 # Bundler Audit Action
 
 This GitHub Action runs [bundler-audit](https://github.com/rubysec/bundler-audit) on your project.
