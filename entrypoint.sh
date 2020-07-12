@@ -1,3 +1,4 @@
 #!/bin/sh
 
-bundle-audit check --update
+bundle-audit update
+bundle-audit check
