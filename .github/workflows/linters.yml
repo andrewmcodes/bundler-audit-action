@@ -16,17 +16,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run Shell Lint
-        uses: azohra/shell-linter@v0.2.0
-
-  docker_lint:
-    name: Docker Lint Action
-    runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Run Docker Lint
-        uses: luke142367/Docker-Lint-Action@v1.0.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TARGET: Dockerfile
+        uses: azohra/shell-linter@v0.4.0
