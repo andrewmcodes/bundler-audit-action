@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/andrewmcodes/bundler-audit-action/tree/HEAD)
 
-[Full Changelog](https://github.com/andrewmcodes/bundler-audit-action/compare/v0.0.1...HEAD)
+[Full Changelog](https://github.com/andrewmcodes/bundler-audit-action/compare/v0.1.0...HEAD)
+
+**Merged pull requests:**
+
+- fix linters [\#3](https://github.com/andrewmcodes/bundler-audit-action/pull/3) ([andrewmcodes](https://github.com/andrewmcodes))
+
+## [v0.1.0](https://github.com/andrewmcodes/bundler-audit-action/tree/v0.1.0) (2020-07-20)
+
+[Full Changelog](https://github.com/andrewmcodes/bundler-audit-action/compare/v0.0.1...v0.1.0)
 
 **Merged pull requests:**
 
