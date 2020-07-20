@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: 'Bundler Audit'
-        uses: andrewmcodes/bundler-audit-action@master
+        uses: andrewmcodes/bundler-audit-action@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```

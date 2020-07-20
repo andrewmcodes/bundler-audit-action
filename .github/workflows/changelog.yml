@@ -3,7 +3,7 @@ name: Changelog
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   changelog:
     name: Changelog Entry Action
