@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Fix issue with the changelog action and update the changelog [\#4](https://github.com/andrewmcodes/bundler-audit-action/pull/4) ([andrewmcodes](https://github.com/andrewmcodes))
 - fix linters [\#3](https://github.com/andrewmcodes/bundler-audit-action/pull/3) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v0.1.0](https://github.com/andrewmcodes/bundler-audit-action/tree/v0.1.0) (2020-07-20)
