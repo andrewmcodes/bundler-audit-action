@@ -4,7 +4,11 @@
 [contributing]: /CONTRIBUTING.md
 [license]: /LICENSE.md
 
-# Bundler Audit Action
+# `main` is the default branch now
+
+`master` is no longer the default branch, use `main` instead.
+
+## Bundler Audit Action
 
 ![Version Number](https://img.shields.io/static/v1?label=Version&message=v0.0.1&color=blue)
 ![Linters](https://github.com/andrewmcodes/bundler-audit-action/workflows/Linters/badge.svg)
@@ -25,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: 'Bundler Audit'
-        uses: andrewmcodes/bundler-audit-action@master
+        uses: andrewmcodes/bundler-audit-action@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
