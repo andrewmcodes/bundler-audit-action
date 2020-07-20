@@ -27,7 +27,7 @@ assignees: andrewmcodes
 
 ## Action Version & Workflow File
 
- - Version [e.g. v0.0.1]
+ - Version [e.g. v0.1.0]
 
 ### Workflow File
 
