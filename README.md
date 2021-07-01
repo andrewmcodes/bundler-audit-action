@@ -26,8 +26,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: 'Bundler Audit'
         uses: andrewmcodes/bundler-audit-action@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          ba_flags: '--ignore CVE-2015-9284'
 ```
 
 ## Community
