@@ -28,7 +28,7 @@ jobs:
         uses: andrewmcodes/bundler-audit-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          ba_flags: '--ignore CVE-2015-9284'
+          options: '--ignore CVE-2015-9284'
 ```
 
 ## Community

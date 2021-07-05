@@ -2,7 +2,7 @@ name: 'Bundler Audit Action'
 description: 'GitHub Action for running bundler-audit'
 author: 'Andrew Mason <andrewmcodes@protonmail.com>'
 inputs:
-  ba_flags:
+  options:
     description: All the flags you want to add to bundle-audit eg. (--ignore CVE-2015-9284)
     default: ''
     required: false
@@ -14,7 +14,7 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.github_token }}
-    - ${{ inputs.ba_flags }}
+    - ${{ inputs.options }}
 branding:
   icon: 'shield'
   color: 'gray-dark'
