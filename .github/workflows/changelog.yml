@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+permissions:
+  contents: write
+
 jobs:
   changelog:
     name: Changelog Entry Action
@@ -15,18 +18,18 @@ jobs:
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.3'
-    - name: Create local changes
+    - name: Generate changelog
       run: |
         gem install github_changelog_generator
         github_changelog_generator -u andrewmcodes -p bundler-audit-action --token ${{ secrets.GITHUB_TOKEN }}
-    - name: Commit files
+    - name: Commit and push if changed
       run: |
         git config --local user.email "andrewmcodes@protonmail.com"
         git config --local user.name "Andrew Mason"
         git add CHANGELOG.md
-        git commit -m "Update changelog"
-    - name: Push changes
-      uses: ad-m/github-push-action@v1.1.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+        if git diff --cached --quiet; then
+          echo "No changelog changes"
+        else
+          git commit -m "docs: update changelog [ci skip]"
+          git push
+        fi
