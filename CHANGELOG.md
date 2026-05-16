@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/andrewmcodes/bundler-audit-action/compare/v0.1.0...v0.1.1) (2026-05-16)
+
+
+### Bug Fixes
+
+* :bug: Fix issue with the changelog action and update the changelog ([#4](https://github.com/andrewmcodes/bundler-audit-action/issues/4)) ([9eb5307](https://github.com/andrewmcodes/bundler-audit-action/commit/9eb5307a7408780651d857a263194dabc423db3a))
+
 ## [Unreleased](https://github.com/andrewmcodes/bundler-audit-action/tree/HEAD)
 
 [Full Changelog](https://github.com/andrewmcodes/bundler-audit-action/compare/v0.1.0...HEAD)
